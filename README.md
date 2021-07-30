@@ -95,6 +95,17 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/main/index.html
 
 
+#### 3.6 Sagmenting the home page template
+
+        modified:   README.md
+        new file:   templates/main/inc/banner.html
+        new file:   templates/main/inc/content.html
+        modified:   templates/main/index.html
+        new file:   templates/shared/footer.html
+        new file:   templates/shared/head.html
+        new file:   templates/shared/header-main.html
+        new file:   templates/shared/header-top.html
+
 
 
 
