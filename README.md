@@ -89,7 +89,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         new file:   static/js/script.js       
 
 
+#### 3.5 Loading static files
 
+        modified:   README.md
+        modified:   templates/main/index.html
 
 
 

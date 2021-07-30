@@ -1,4 +1,5 @@
 {# apps/templates/main/index.html #}
+{% load static %}
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -9,17 +10,17 @@
     <title>GreatKart | One of the Biggest Online Shopping Platform</title>
     <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <!-- jQuery -->
-    <script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+    <script src="{% static 'js/jquery-2.0.0.min.js' %}" type="text/javascript"></script>
     <!-- Bootstrap4 files-->
-    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}" type="text/javascript"></script>
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css"/>
     <!-- Font awesome 5 -->
-    <link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+    <link href="fonts/fontawesome/css/all.min.css' %}" type="text/css" rel="stylesheet">
     <!-- custom style -->
-    <link href="css/ui.css" rel="stylesheet" type="text/css"/>
-    <link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+    <link href="{% static 'css/ui.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'css/responsive.css' %}" rel="stylesheet" media="only screen and (max-width: 1200px)" />
     <!-- custom javascript -->
-    <script src="js/script.js" type="text/javascript"></script>
+    <script src="{% static 'js/script.js' %}" type="text/javascript"></script>
     <script type="text/javascript">
         /// some script
         
@@ -62,7 +63,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-md-3 col-6">
                         <a href="./" class="brand-wrap">
-                        <img class="logo" src="./images/logo.png">
+                        <img class="logo" src="{% static 'images/logo.png' %}">
                         </a> <!-- brand-wrap.// -->
                     </div>
                     <div class="col-lg col-sm col-md col-6 flex-grow-0">
@@ -126,7 +127,7 @@
     <section class="section-intro padding-y-sm">
         <div class="container">
             <div class="intro-banner-wrap">
-                <img src="images/banners/1.jpg" class="img-fluid rounded">
+                <img src="{% static 'images/banners/1.jpg' %}" class="img-fluid rounded">
             </div>
         </div>
         <!-- container //  -->
@@ -143,7 +144,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="card card-product-grid">
-                        <a href="./product-detail.html" class="img-wrap"> <img src="images/items/1.jpg"> </a>
+                        <a href="./product-detail.html" class="img-wrap"> <img src="{% static 'images/items/1.jpg' %}"> </a>
                         <figcaption class="info-wrap">
                             <a href="./product-detail.html" class="title">Just another product name</a>
                             <div class="price mt-1">$179.00</div>
@@ -154,7 +155,7 @@
                 <!-- col.// -->
                 <div class="col-md-3">
                     <div class="card card-product-grid">
-                        <a href="./product-detail.html" class="img-wrap"> <img src="images/items/2.jpg"> </a>
+                        <a href="./product-detail.html" class="img-wrap"> <img src="{% static 'images/items/2.jpg' %}"> </a>
                         <figcaption class="info-wrap">
                             <a href="./product-detail.html" class="title">Some item name here</a>
                             <div class="price mt-1">$280.00</div>
@@ -165,7 +166,7 @@
                 <!-- col.// -->
                 <div class="col-md-3">
                     <div class="card card-product-grid">
-                        <a href="./product-detail.html" class="img-wrap"> <img src="images/items/3.jpg"> </a>
+                        <a href="./product-detail.html" class="img-wrap"> <img src="{% static 'images/items/3.jpg' %}"> </a>
                         <figcaption class="info-wrap">
                             <a href="./product-detail.html" class="title">Great product name here</a>
                             <div class="price mt-1">$56.00</div>
@@ -176,7 +177,7 @@
                 <!-- col.// -->
                 <div class="col-md-3">
                     <div class="card card-product-grid">
-                        <a href="./product-detail.html" class="img-wrap"> <img src="images/items/4.jpg"> </a>
+                        <a href="./product-detail.html" class="img-wrap"> <img src="{% static 'images/items/4.jpg' %}"> </a>
                         <figcaption class="info-wrap">
                             <a href="./product-detail.html" class="title">Just another product name</a>
                             <div class="price mt-1">$179.00</div>
@@ -187,7 +188,7 @@
                 <!-- col.// -->
                 <div class="col-md-3">
                     <div class="card card-product-grid">
-                        <a href="./product-detail.html" class="img-wrap"> <img src="images/items/5.jpg"> </a>
+                        <a href="./product-detail.html" class="img-wrap"> <img src="{% static 'images/items/5.jpg' %}"> </a>
                         <figcaption class="info-wrap">
                             <a href="./product-detail.html" class="title">Just another product name</a>
                             <div class="price mt-1">$179.00</div>
@@ -198,7 +199,7 @@
                 <!-- col.// -->
                 <div class="col-md-3">
                     <div class="card card-product-grid">
-                        <a href="./product-detail.html" class="img-wrap"> <img src="images/items/6.jpg"> </a>
+                        <a href="./product-detail.html" class="img-wrap"> <img src="{% static 'images/items/6.jpg' %}"> </a>
                         <figcaption class="info-wrap">
                             <a href="./product-detail.html" class="title">Some item name here</a>
                             <div class="price mt-1">$280.00</div>
@@ -209,7 +210,7 @@
                 <!-- col.// -->
                 <div class="col-md-3">
                     <div class="card card-product-grid">
-                        <a href="./product-detail.html" class="img-wrap"> <img src="images/items/7.jpg"> </a>
+                        <a href="./product-detail.html" class="img-wrap"> <img src="{% static 'images/items/7.jpg' %}"> </a>
                         <figcaption class="info-wrap">
                             <a href="./product-detail.html" class="title">Great product name here</a>
                             <div class="price mt-1">$56.00</div>
@@ -220,7 +221,7 @@
                 <!-- col.// -->
                 <div class="col-md-3">
                     <div class="card card-product-grid">
-                        <a href="./product-detail.html" class="img-wrap"> <img src="images/items/9.jpg"> </a>
+                        <a href="./product-detail.html" class="img-wrap"> <img src="{% static 'images/items/9.jpg' %}"> </a>
                         <figcaption class="info-wrap">
                             <a href="./product-detail.html" class="title">Just another product name</a>
                             <div class="price mt-1">$179.00</div>
