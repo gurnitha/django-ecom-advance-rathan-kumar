@@ -147,6 +147,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         (venv3932) λ python -m pip install psycopg2-binary==2.8.6
 
 
+#### 3.6 Adding db credentials and secret_key to .env file
+
+        modified:   README.md
+        modified:   config/.env
 
 
 
