@@ -177,9 +177,13 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   config/settings.py
 
 
+#### 4.3 Creating Custom User using the AbstractBaseUser, BaseUserManager 
 
-
-
+        modified:   README.md
+        modified:   apps/accounts/admin.py
+        new file:   apps/accounts/migrations/0001_initial.py
+        modified:   apps/accounts/models.py
+        modified:   config/settings.py
 
 
 
