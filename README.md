@@ -46,6 +46,20 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         new file:   db.sqlite3
 
 
+### -------------------------------
+### 3. TEMPLATES AND STATIC FILES
+### -------------------------------
+
+
+#### 3.1 Hello world (Templates, Views, Urls)
+
+        modified:   README.md
+        new file:   apps/main/urls.py
+        modified:   apps/main/views.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   templates/main/index.html
+
 
 
 
