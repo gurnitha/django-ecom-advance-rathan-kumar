@@ -159,8 +159,15 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   config/settings.py
 
 
+### ------------------------
+### 4. USER AUTHENTICATION
+### ------------------------
 
 
+#### 4.1 Create a new app 'apps/accounts'
+
+        (venv3932) λ mkdir apps\accounts
+        (venv3932) λ python manage.py startapp accounts apps/accounts
 
 
 
