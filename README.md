@@ -142,11 +142,9 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         CREATE DATABASE
         hp=# 
 
+#### 3.5 Install database driver
 
-
-
-
-
+        (venv3932) λ python -m pip install psycopg2-binary==2.8.6
 
 
 
