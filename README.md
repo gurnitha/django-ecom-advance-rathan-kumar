@@ -70,9 +70,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/main/index.html
 
 
+#### 3.3 Creating STATIC_URL, STATIC_ROOT, STATICFILES_DIRS
 
-
-
+        modified:   README.md
+        modified:   config/settings.py
 
 
 
