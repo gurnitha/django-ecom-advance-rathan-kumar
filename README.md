@@ -61,9 +61,13 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         new file:   templates/main/index.html
 
 
+#### 3.2 Adding html template and static assets for the home page
 
-
-
+        modified:   README.md
+        ...
+        new file:   config/static/js/jquery-2.0.0.min.js
+        new file:   config/static/js/script.js
+        modified:   templates/main/index.html
 
 
 
