@@ -20,6 +20,14 @@
         (venv3932) λ python.exe -m pip install --upgrade pip
 
 
+### ----------------------------
+### 2. DJANGO PROJECT AND APPS
+### ----------------------------
+
+
+#### 2.1 Create django project 'src/config'
+
+        (venv3932) λ django-admin startproject config .
 
 
 
