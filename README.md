@@ -170,6 +170,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         (venv3932) λ python manage.py startapp accounts apps/accounts
 
 
+#### 4.2 Register accounts app to config/settings.py
+
+        modified:   README.md
+        modified:   apps/accounts/apps.py
+        modified:   config/settings.py
+
 
 
 
