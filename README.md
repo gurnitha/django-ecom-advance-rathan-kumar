@@ -38,8 +38,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
 #### 2.2 Create django app 'apps/main'
 
 
+#### 2.3 Register the app 'main' to the project config/settings.py
 
-
+        modified:   README.md
+        modified:   apps/main/apps.py
+        modified:   config/settings.py
+        new file:   db.sqlite3
 
 
 
