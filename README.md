@@ -114,6 +114,15 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/main/index.html
 
 
+### -------------
+### 3. DATABASE
+### -------------
+
+
+#### 3.1 Create .env file
+
+        modified:   README.md
+        new file:   config/.env
 
 
 
