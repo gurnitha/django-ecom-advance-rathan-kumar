@@ -1,0 +1,33 @@
+{# apps/templates/main/index.html #}
+{% load static %}
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    {% include "shared/head.html" %}
+    <title>{% block page_title %}{% endblock page_title %} | GreatKart</title>
+</head>
+<body>
+
+    <!-- ============== SECTION HEADER ================ -->
+    <header class="section-header">
+
+        <!-- Header-top -->
+        {% include "shared/header-top.html" %}
+        <!-- Header-top -->
+
+        <!-- Header-main -->
+        {% include "shared/header-main.html" %}
+        <!-- Header-main -->
+
+    </header>
+    <!-- ============== SECTION HEADER END ============ -->
+
+    {% block content %}
+        
+    {% endblock content %}
+
+    <!-- ================ FOOTER ====================== -->
+    {% include "shared/footer.html" %}
+    <!-- ================ FOOTER END ================== -->
+</body>
+</html>

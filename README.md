@@ -107,6 +107,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         new file:   templates/shared/header-top.html
 
 
+#### 3.7 Base template
+
+        modified:   README.md
+        new file:   templates/base.html
+        modified:   templates/main/index.html
+
 
 
 

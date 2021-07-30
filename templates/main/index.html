@@ -1,37 +1,16 @@
 {# apps/templates/main/index.html #}
+{% extends "base.html" %}
 {% load static %}
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    {% include "shared/head.html" %}
-    <title>GreatKart | One of the Biggest Online Shopping Platform</title>
-</head>
-<body>
+{% block page_title %}{{block.super}} Home{% endblock page_title %}
 
-    <!-- ============== SECTION HEADER ================ -->
-    <header class="section-header">
+{% block content %}
+    
+<!-- =============== SECTION BANNER =============== -->
+{% include "./inc/banner.html" %}
+<!-- ============== SECTION BANNER END ============ -->
 
-        <!-- Header-top -->
-        {% include "shared/header-top.html" %}
-        <!-- Header-top -->
+<!-- ============ SECTION CONTENT ================= -->
+{% include "./inc/content.html" %}
+<!-- ============ SECTION CONTENT END ============= -->
 
-        <!-- Header-main -->
-        {% include "shared/header-main.html" %}
-        <!-- Header-main -->
-
-    </header>
-    <!-- ============== SECTION HEADER END ============ -->
-
-    <!-- =============== SECTION BANNER =============== -->
-    {% include "./inc/banner.html" %}
-    <!-- ============== SECTION BANNER END ============ -->
-
-    <!-- ============ SECTION CONTENT ================= -->
-    {% include "./inc/content.html" %}
-    <!-- ============ SECTION CONTENT END ============= -->
-
-    <!-- ================ FOOTER ====================== -->
-    {% include "shared/footer.html" %}
-    <!-- ================ FOOTER END ================== -->
-</body>
-</html>
+{% endblock content %}
