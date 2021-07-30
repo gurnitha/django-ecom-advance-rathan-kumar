@@ -76,6 +76,18 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   config/settings.py
 
 
+#### 3.4 Collect static files
+
+        (venv3932) λ python manage.py collectstatic
+
+        201 static files copied to 'E:\workspace\django\ECOMMERCE\rathan_advance_ecommerce\src\static'.
+
+        modified:   README.md
+        new file:   static/admin/fonts/Roboto-Bold-webfont.woff
+        ...
+        new file:   static/js/jquery-2.0.0.min.js
+        new file:   static/js/script.js       
+
 
 
 
