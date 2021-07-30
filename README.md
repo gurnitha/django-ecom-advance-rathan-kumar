@@ -125,8 +125,9 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         new file:   config/.env
 
 
+#### 3.2 Install django_environ 
 
-
+        (venv3932) λ pip install django-environ
 
 
 
