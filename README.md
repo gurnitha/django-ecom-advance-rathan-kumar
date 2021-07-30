@@ -136,6 +136,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   config/.env
 
 
+#### 3.4 Create database
+
+        hp=# create database django_rathan_greatkart;
+        CREATE DATABASE
+        hp=# 
 
 
 
