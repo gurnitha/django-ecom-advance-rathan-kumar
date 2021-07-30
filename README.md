@@ -1,5 +1,10 @@
 ## BUILDING ADVANCE DJANGO ECOMMERCE
 
+github sourcecodes:
+https://github.com/dev-rathankumar/greatkart-course
+udemy:
+https://www.udemy.com/course/django-ecommerce-project-based-course-python-django-web-development/learn/lecture/25940412#questions/14475060
+
 
 ### ----------
 ### 1. SETUP
@@ -29,6 +34,8 @@
 
         (venv3932) λ django-admin startproject config .
 
+
+#### 2.2 Create django app 'apps/main'
 
 
 
