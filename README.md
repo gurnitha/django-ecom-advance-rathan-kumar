@@ -153,7 +153,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   config/.env
 
 
+#### 3.7 Connecting .env file with the project settings.py
 
+        modified:   README.md
+        modified:   config/settings.py
 
 
 
