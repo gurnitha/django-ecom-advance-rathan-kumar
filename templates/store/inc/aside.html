@@ -2,6 +2,8 @@
 
 <aside class="col-md-3">
     <div class="card">
+
+        <!-- Categories -->
         <article class="filter-group">
             <header class="card-header">
                 <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
@@ -12,19 +14,22 @@
             <div class="filter-content collapse show" id="collapse_1" style="">
                 <div class="card-body">
                     <ul class="list-menu">
-                        <li><a href="#">People  </a></li>
-                        <li><a href="#">Watches </a></li>
-                        <li><a href="#">Cinema  </a></li>
-                        <li><a href="#">Clothes  </a></li>
-                        <li><a href="#">Home items </a></li>
-                        <li><a href="#">Animals</a></li>
-                        <li><a href="#">People </a></li>
+                        {% if links %}
+                            {% for category in links  %}
+                                <li>
+                                    <a href="{{category.get_absolute_url}}">
+                                        {{category.category_name}}
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        {% endif %}
                     </ul>
                 </div>
-                <!-- card-body.// -->
             </div>
         </article>
-        <!-- filter-group  .// -->
+        <!-- Categories end -->
+
+        <!-- Sizes -->
         <article class="filter-group">
             <header class="card-header">
                 <a href="#" data-toggle="collapse" data-target="#collapse_4" aria-expanded="true" class="">
@@ -54,7 +59,9 @@
                 <!-- card-body.// -->
             </div>
         </article>
-        <!-- filter-group .// -->
+        <!-- Sizes end -->
+
+        <!-- Price range -->
         <article class="filter-group">
             <header class="card-header">
                 <a href="#" data-toggle="collapse" data-target="#collapse_3" aria-expanded="true" class="">
@@ -97,7 +104,7 @@
                 <!-- card-body.// -->
             </div>
         </article>
-        <!-- filter-group .// -->
+        <!-- Price range end -->
+
     </div>
-    <!-- card.// -->
 </aside>

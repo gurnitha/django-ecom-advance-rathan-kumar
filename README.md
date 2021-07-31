@@ -426,6 +426,13 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/inc/main-content.html
 
 
+#### 6.18 Retrieve and display categories in aside menu of the store page (see 6.14) and add links (see 6.16)
+
+        modified:   README.md
+        modified:   templates/store/inc/aside.html
+
+
+
 
 
 
