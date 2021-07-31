@@ -218,7 +218,18 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   apps/category/admin.py
 
 
+#### 5.5 Add category items
 
+        modified:   README.md
+        new file:   photos/categories/01.png
+        new file:   photos/categories/1.jpg
+        new file:   photos/categories/12.jpg
+        new file:   photos/categories/1_UEJo3RJ.jpg
+        new file:   photos/categories/2.jpg
+        new file:   photos/categories/3.jpg
+
+        NOTE: 
+        Could not access the image due to the media path        
 
 
 
