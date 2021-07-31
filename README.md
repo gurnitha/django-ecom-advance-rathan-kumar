@@ -439,9 +439,16 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/inc/aside.html
 
 
+#### 6.20 Creating product-detail template define the url
 
+        NOTE:
+        It works with this path:http://127.0.0.1:8000/store/anything/anything/
 
-
+        modified:   README.md
+        modified:   apps/store/urls.py
+        modified:   apps/store/views.py
+        new file:   templates/store/detail-page.html
+        modified:   templates/store/inc/main-content.html
 
 
 

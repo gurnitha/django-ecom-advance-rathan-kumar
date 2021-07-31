@@ -59,3 +59,8 @@ def store_page(request,category_slug=None):
 	}	
 
 	return render(request, 'store/store-page.html', context)
+
+
+
+def detail_page(request,category_slug,product_slug):
+	return render(request, 'store/detail-page.html')
