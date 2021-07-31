@@ -280,7 +280,17 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   apps/store/models.py
 
 
+#### 6.5 Add items to product
 
+        modified:   README.md
+        new file:   media/photos/products/ATX-Jeans.jpg
+        new file:   media/photos/products/Blue-Shirt.jpg
+        new file:   media/photos/products/Great-Tshirt.jpg
+        new file:   media/photos/products/Mavi_jeans.jpg
+        new file:   media/photos/products/Puma-Ferrari-Shoes.jpg
+        new file:   media/photos/products/US-Polo-Assn_Jacket.jpg
+        new file:   media/photos/products/Wrangler-Shirt.jpg
+        new file:   media/photos/products/jordan-true-flight-basketball-shoes.jpg
 
 
 
