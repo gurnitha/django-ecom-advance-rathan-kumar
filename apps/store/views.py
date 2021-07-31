@@ -61,6 +61,24 @@ def store_page(request,category_slug=None):
 	return render(request, 'store/store-page.html', context)
 
 
+# # Detail_page 1
+# def detail_page(request,category_slug,product_slug):
+# 	return render(request, 'store/detail-page.html')
 
+
+# Detail_page 2 with try and exeption
 def detail_page(request,category_slug,product_slug):
-	return render(request, 'store/detail-page.html')
+
+	# Get the slug from Category model and slug from the Product model
+	try:
+		single_product = Product.objects.get(category__slug=category_slug,slug=product_slug)
+		
+	except Exception as e: 
+		raise e
+
+	# Put the available products into context dictionary
+	context = {
+		'single_product':single_product, # <-- 'single_product'  as variable
+	}	
+
+	return render(request, 'store/detail-page.html', context)	

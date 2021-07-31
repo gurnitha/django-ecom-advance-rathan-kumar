@@ -451,6 +451,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/inc/main-content.html
 
 
+#### 6.21 Retrieve data and display it on product-detail page
+
+        modified:   README.md
+        modified:   apps/store/__pycache__/views.cpython-39.pyc
+        modified:   apps/store/views.py
+        modified:   templates/store/detail-page.html
 
 
 
