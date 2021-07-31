@@ -77,7 +77,7 @@
                         {% if single_product.stock <= 0 %}
                         <h5 style="color:red;">Out of stock</h5>
                         {% else %}
-                        <a href="./product-detail.html" class="btn  btn-primary"> <span class="text">Add to cart</span> <i class="fas fa-shopping-cart"></i> </a>
+                        <a href="{% url 'cart:cart_page' %}" class="btn  btn-primary"> <span class="text">Add to cart</span> <i class="fas fa-shopping-cart"></i> </a>
                         {% endif %}
 
                         <a href="{% url 'store:store_page' %}" class="btn  btn-primary"> <span class="text">Store</span></a>

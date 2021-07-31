@@ -536,6 +536,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/cart/cart-page.html
 
 
+#### 7.5 Add link to Add to Cart button
+
+        modified:   README.md
+        modified:   templates/store/detail-page.html
+        modified:   templates/store/inc/main-content.html 
 
 
 
