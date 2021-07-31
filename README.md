@@ -326,7 +326,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         NEXT> Add discount price field in the product model
 
 
+#### 6.9 Adding discount price field
 
+        modified:   README.md
+        modified:   apps/store/models.py
+        modified:   templates/store/inc/main-content.html
 
 
 
