@@ -395,8 +395,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         new file:   apps/category/context_processors.py
 
 
+#### 6.13 CONTEXT_PROCESSOR - Part 2: register it to TEMPLATES settings.py 
 
-
+        modified:   README.md
+        modified:   config/settings.py
 
 
 
