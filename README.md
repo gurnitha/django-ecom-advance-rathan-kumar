@@ -232,10 +232,20 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         Could not access the image due to the media path        
 
 
+#### 5.5 Add media path for category images
 
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   media/photos/categories/01.png
+        new file:   media/photos/categories/1.jpg
+        new file:   media/photos/categories/12.jpg
+        new file:   media/photos/categories/2.jpg
+        new file:   media/photos/categories/3.jpg
 
-
-
+        NOTE: 
+        1. To make images accessabel, re-insert the images
+        2. A media folder created automatically in the project root    
 
 
 
