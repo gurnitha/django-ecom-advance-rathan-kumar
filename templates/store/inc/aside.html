@@ -14,6 +14,11 @@
             <div class="filter-content collapse show" id="collapse_1" style="">
                 <div class="card-body">
                     <ul class="list-menu">
+                        <li>
+                            <a href="{% url 'store:store-page' %}">
+                               All products
+                            </a>
+                        </li>
                         {% if links %}
                             {% for category in links  %}
                                 <li>

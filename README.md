@@ -432,7 +432,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/inc/aside.html
 
 
+#### 6.19 Add All products to menus (aside and main manu)
 
+        modified:   README.md
+        modified:   templates/shared/header-main.html
+        modified:   templates/store/inc/aside.html
 
 
 
