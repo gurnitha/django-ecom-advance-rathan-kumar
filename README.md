@@ -389,6 +389,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   apps/store/views.py
 
 
+#### 6.12 CONTEXT_PROCESSOR - Part 1: create template 
+
+        modified:   README.md
+        new file:   apps/category/context_processors.py
+
+
 
 
 
