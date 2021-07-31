@@ -212,8 +212,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   apps/category/models.py
 
 
+#### 5.4 Pre-populated slug field based on category_name
 
-
+        modified:   README.md
+        modified:   apps/category/admin.py
 
 
 
