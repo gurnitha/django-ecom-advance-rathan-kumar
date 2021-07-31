@@ -293,7 +293,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         new file:   media/photos/products/jordan-true-flight-basketball-shoes.jpg
 
 
+#### 6.6 Retrieve and display product items to home page
 
+        modified:   README.md
+        modified:   apps/main/views.py
+        modified:   templates/main/inc/content.html
 
 
 
