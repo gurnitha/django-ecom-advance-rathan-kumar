@@ -300,8 +300,18 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/main/inc/content.html
 
 
+#### 6.7 Adding store-page (product-list) (VT Urls)
 
-
+        modified:   README.md
+        new file:   apps/store/urls.py
+        modified:   apps/store/views.py
+        modified:   config/urls.py
+        new file:   templates/shared/breadcrumb.html
+        modified:   templates/shared/header-main.html
+        new file:   templates/store/inc/aside.html
+        new file:   templates/store/inc/main-content.html
+        new file:   templates/store/inc/pagination.html
+        new file:   templates/store/store-page.html
 
 
 

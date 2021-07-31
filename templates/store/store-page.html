@@ -1,0 +1,35 @@
+{# apps/templates/main/index.html #}
+{% extends "base.html" %}
+{% load static %}
+{% block page_title %}{{block.super}} Store{% endblock page_title %}
+
+{% block content %}
+
+<!-- =============== SECTION BREADCRUMB =============== -->
+{% include "shared/breadcrumb.html" %}
+<!-- =============== SECTION BREADCRUMB END =========== -->
+
+<!-- ============ SECTION CONTENT ================= -->
+<section class="section-content padding-y">
+    <div class="container">
+        <div class="row">
+
+        	<!-- Aside -->
+			{% include "./inc/aside.html" %}       	
+        	<!-- Aside end -->
+            
+        	<!-- Main content -->
+			{% include "./inc/main-content.html" %}
+        	<!-- Main content end -->
+
+        </div>
+    </div>
+    
+
+</section>
+<!-- ============ SECTION CONTENT END ============= -->
+
+{% endblock content %}
+
+
+
