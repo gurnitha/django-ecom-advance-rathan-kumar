@@ -248,6 +248,15 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         2. A media folder created automatically in the project root    
 
 
+### -----------
+### 6. STORE
+### -----------
+
+
+#### 6.1 Create a new app 'apps/store'
+
+        (venv3932) λ mkdir apps\store
+        (venv3932) λ python manage.py startapp store apps/store
 
 
 
