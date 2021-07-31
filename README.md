@@ -501,7 +501,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/detail-page.html
 
 
+#### 6.27 Showing No stock
 
+        modified:   README.md
+        modified:   templates/store/detail-page.html
 
 
 
