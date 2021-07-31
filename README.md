@@ -507,6 +507,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/detail-page.html
 
 
+### ---------
+### 7. CART
+### ---------
+
+
+#### 7.1 Create a new app 'apps/cart'
 
 
 
