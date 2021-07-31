@@ -522,6 +522,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   config/settings.py 
 
 
+#### 7.3 Cart page (VT Urls) 
+
+        new file:   apps/cart/urls.py
+        modified:   apps/cart/views.py
+        modified:   config/urls.py
+        new file:   templates/cart/cart-page.html
 
 
 
