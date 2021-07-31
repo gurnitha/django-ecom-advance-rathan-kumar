@@ -403,7 +403,8 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
 
 #### 6.14 CONTEXT_PROCESSOR - Part 3: retrieve and display all categories in main menu
 
-
+        modified:   README.md
+        modified:   templates/shared/header-main.html
 
 
 
