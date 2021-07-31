@@ -420,9 +420,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/shared/header-main.html
 
 
+#### 6.17 No product found with that category
 
-
-
+        modified:   README.md
+        modified:   templates/store/inc/main-content.html
 
 
 

@@ -31,6 +31,16 @@
                     </figure>
                 </div>
             {% endfor %}
+        {% else %}
+            <div class="col-md-12">
+               <div class="alert alert-warning" role="alert">
+              No product found with that category.  
+            </div>
+            <div class="col-md-4">
+                <p><a href="{% url 'store:store-page'%}">Return to store &larr;</a></p>
+            </div>   
+            </div>
+              
         {% endif %}
         
 
