@@ -333,11 +333,16 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/inc/main-content.html
 
 
+#### 6.10 Product count
 
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/inc/main-content.html
 
-
-
-
+        # Views: Counting the products
+        product_count = products.count()
+        # Template
+        <span class="mr-md-auto">Found <b>{{product_count}}</b> items </span>
 
 
 
