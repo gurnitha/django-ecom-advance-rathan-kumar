@@ -494,7 +494,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/main/inc/banner.html
 
 
+#### 6.26 Loading the all.min.css
 
+        modified:   README.md
+        modified:   templates/shared/head.html
+        modified:   templates/store/detail-page.html
 
 
 
