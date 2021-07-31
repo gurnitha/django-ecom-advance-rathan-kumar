@@ -468,11 +468,22 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
 
 
 #### 6.23 Linking all links
- 
+
         modified:   README.md
         modified:   templates/main/inc/content.html
         modified:   templates/shared/header-main.html
 
+
+#### 6.24 House keeping: re-naming of the path name to be consistent
+
+        modified:   README.md
+        modified:   apps/main/urls.py
+        modified:   apps/store/urls.py
+        modified:   templates/main/inc/content.html
+        modified:   templates/shared/header-main.html
+        modified:   templates/store/detail-page.html
+        modified:   templates/store/inc/aside.html
+        modified:   templates/store/inc/main-content.html
 
 
 

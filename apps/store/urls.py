@@ -10,7 +10,7 @@ from apps.store.views import store_page, detail_page
 app_name = 'store'
 
 urlpatterns = [
-    path('', store_page, name='store-page'),
+    path('', store_page, name='store_page'),
     path('<slug:category_slug>/', store_page, name='product_list_by_category'),
     path('<slug:category_slug>/<slug:product_slug>/', detail_page, name='product_detail'),
 ]
