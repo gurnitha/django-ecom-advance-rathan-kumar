@@ -274,7 +274,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   apps/store/models.py
 
 
+#### 6.4 Modified product price field type form integer to decimal
 
+        modified:   README.md
+        modified:   apps/store/models.py
 
 
 
