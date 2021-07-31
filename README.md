@@ -467,8 +467,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/inc/main-content.html
 
 
-
-
+#### 6.23 Linking all links
+ 
+        modified:   README.md
+        modified:   templates/main/inc/content.html
+        modified:   templates/shared/header-main.html
 
 
 
