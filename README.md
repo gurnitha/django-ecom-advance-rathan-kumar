@@ -407,8 +407,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/shared/header-main.html
 
 
+#### 6.15 CONTEXT_PROCESSOR - Part 4: create get_absolute_urls 
 
-
+        modified:   README.md
+        modified:   apps/category/models.py
+        modified:   apps/store/urls.py
 
 
 
