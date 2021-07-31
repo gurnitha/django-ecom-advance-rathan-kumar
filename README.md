@@ -186,6 +186,17 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   config/settings.py
 
 
+### --------------
+### 5. CATEGORY
+### --------------
+
+
+#### 5.1 Create a new app 'apps/category'
+
+        (venv3932) λ mkdir apps\category
+        (venv3932) λ python manage.py startapp category apps/category
+
+
 
 
 
