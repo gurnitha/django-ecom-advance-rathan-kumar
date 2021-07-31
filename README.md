@@ -515,7 +515,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
 #### 7.1 Create a new app 'apps/cart'
 
 
+#### 7.2 Register the app 'cart' to config/settings.py
 
+        modified:   README.md
+        modified:   apps/cart/apps.py
+        modified:   config/settings.py 
 
 
 
