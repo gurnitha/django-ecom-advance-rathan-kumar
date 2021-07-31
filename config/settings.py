@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     # First party apps
     'apps.main.apps.MainConfig',
     'apps.accounts.apps.AccountsConfig',
+    'apps.category.apps.CategoryConfig',
 ]
 
 MIDDLEWARE = [

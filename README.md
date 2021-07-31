@@ -197,7 +197,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         (venv3932) λ python manage.py startapp category apps/category
 
 
+#### 5.2 Register the new app 'category' to config/settings.py
 
+        modified:   README.md
+        modified:   apps/category/apps.py
+        modified:   config/settings.py
 
 
 
