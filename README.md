@@ -266,7 +266,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   config/settings.py
 
 
+#### 6.3 Product model
 
+        modified:   README.md
+        modified:   apps/store/admin.py
+        new file:   apps/store/migrations/0001_initial.py
+        modified:   apps/store/models.py
 
 
 
