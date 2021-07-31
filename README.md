@@ -486,7 +486,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/inc/main-content.html
 
 
+#### 6.25 Changing the banner
 
+        modified:   README.md
+        new file:   config/static/images/banners/cover.jpg
+        new file:   static/images/banners/cover.jpg
+        modified:   templates/main/inc/banner.html
 
 
 
