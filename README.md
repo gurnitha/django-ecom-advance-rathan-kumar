@@ -345,13 +345,48 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         <span class="mr-md-auto">Found <b>{{product_count}}</b> items </span>
 
 
+#### 6.11 Retrieve all products_by_category
 
+        http://127.0.0.1:8000/store/shirts
 
+        path('<slug:category_slug>/', store_page, name='products_by_category'),
 
+        # Store_page view 2 + slug
+        def store_page(request,category_slug=None):
 
+                # Define categories and products are None
+                categories = None
+                products   = None
 
+                # What if categories slug are NOT None or exist
+                # Return the slugs if they are exist, or
+                # return 404 error if they are not exist
+                if category_slug != None:
+                        categories = get_object_or_404(Category, slug=category_slug)
+                        products   = Product.objects.filter(category=categories, is_available=True)
 
+                        # Product count
+                        product_count = products.count()
 
+                else:
+
+                        # Get all the available products
+                        products = Product.objects.all().filter(is_available=True)
+
+                        # Counting the products
+                        product_count = products.count()
+
+        # Put the available products into context dictionary
+        context = {
+                'products':products, # <-- 'products'  as variable
+                'product_count':product_count,
+        }       
+
+        return render(request, 'store/store-page.html', context)
+
+        modified:   README.md
+        modified:   apps/store/urls.py
+        modified:   apps/store/views.py
 
 
 

@@ -11,4 +11,5 @@ app_name = 'store'
 
 urlpatterns = [
     path('', store_page, name='store-page'),
+    path('<slug:category_slug>/', store_page, name='products_by_category'),
 ]
