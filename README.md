@@ -314,9 +314,16 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         new file:   templates/store/store-page.html
 
 
+#### 6.8 Retrieve and display product items to store-page
 
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/inc/main-content.html
 
-
+        NOTE:
+        1. The template showing discount price.
+        2. But in the model there is not discount price
+        NEXT> Add discount price field in the product model
 
 
 
