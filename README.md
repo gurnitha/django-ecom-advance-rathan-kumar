@@ -414,6 +414,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   apps/store/urls.py
 
 
+#### 6.16 CONTEXT_PROCESSOR - Part 5: use get_absolute_urls to links products_by_category
+
+        modified:   README.md
+        modified:   templates/shared/header-main.html
 
 
 
