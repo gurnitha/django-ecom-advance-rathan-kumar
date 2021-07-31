@@ -543,6 +543,13 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/inc/main-content.html 
 
 
+#### 7.6 Create Cart, CartItem models, run migrations and register them to admin
+
+        modified:   README.md
+        modified:   apps/cart/admin.py
+        new file:   apps/cart/migrations/0001_initial.py
+        modified:   apps/cart/models.py
+
 
 
 
