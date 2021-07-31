@@ -259,7 +259,11 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         (venv3932) λ python manage.py startapp store apps/store
 
 
+#### 6.2 Register the new app 'store' to config/settings.py
 
+        modified:   README.md
+        modified:   apps/store/apps.py
+        modified:   config/settings.py
 
 
 
