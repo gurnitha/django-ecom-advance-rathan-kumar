@@ -530,7 +530,10 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         new file:   templates/cart/cart-page.html
 
 
+#### 7.4 Add template to cart-page
 
+        modified:   README.md
+        modified:   templates/cart/cart-page.html
 
 
 
