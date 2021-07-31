@@ -2,6 +2,7 @@
 
 # Django modules
 from django.db import models
+from django.urls import reverse
 
 # Django locals
 from apps.category.models import Category
@@ -20,6 +21,10 @@ class Product(models.Model):
     is_available    = models.BooleanField(default=True)
     created_date    = models.DateTimeField(auto_now_add=True)
     modified_date   = models.DateTimeField(auto_now=True)
+
+    # Define get_absolute_url
+    def get_absolute_url(self):
+        return reverse('store:product_detail', args=[self.category.slug, self.slug])
 
     def __str__(self):
         return self.product_name    

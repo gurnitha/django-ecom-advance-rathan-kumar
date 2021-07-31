@@ -459,6 +459,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/detail-page.html
 
 
+#### 6.22 Create get_absolute_url function in Product model and use it to link product_detail
+
+        modified:   README.md
+        modified:   apps/store/models.py
+        modified:   templates/main/inc/content.html
+        modified:   templates/store/inc/main-content.html
 
 
 
