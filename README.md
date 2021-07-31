@@ -204,7 +204,12 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   config/settings.py
 
 
+#### 5.3 Category model
 
+        modified:   README.md
+        modified:   apps/category/admin.py
+        new file:   apps/category/migrations/0001_initial.py
+        modified:   apps/category/models.py
 
 
 
