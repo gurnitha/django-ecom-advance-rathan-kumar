@@ -551,6 +551,13 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   apps/cart/models.py
 
 
+#### 7.7 Product count by category
+
+        modified:   README.md
+        modified:   apps/category/models.py
+        modified:   apps/store/views.py
+        modified:   templates/shared/head.html
+        modified:   templates/store/inc/aside.html
 
 
 

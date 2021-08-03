@@ -3,6 +3,9 @@
 # Django modules
 from django.db import models
 from django.urls import reverse
+from django.apps import apps
+
+# Django locals
 
 # Create your models here.
 
@@ -21,3 +24,10 @@ class Category(models.Model):
             
     def __str__(self):
         return self.category_name
+
+
+    def get_pr_count(self):
+        Product = apps.get_model('store', 'Product')
+        products = Product.objects.filter(category=self)
+        count = products.count()
+        return count

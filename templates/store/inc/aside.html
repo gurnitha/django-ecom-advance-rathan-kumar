@@ -23,7 +23,7 @@
                             {% for category in links  %}
                                 <li>
                                     <a href="{{category.get_absolute_url}}">
-                                        {{category.category_name}}
+                                        {{category.category_name}} | {{category.get_pr_count}}
                                     </a>
                                 </li>
                             {% endfor %}

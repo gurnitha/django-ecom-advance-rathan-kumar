@@ -67,10 +67,11 @@ def store_page(request,category_slug=None):
 
 
 # Detail_page 2 with try and exeption
+# http://127.0.0.1:8000/store/shirts/blue-shirt/   <---- here the url /category_name as slug/product_name as slug
 def detail_page(request,category_slug,product_slug):
 
 	# Get the slug from Category model and slug from the Product model
-	try:
+	try: 
 		single_product = Product.objects.get(category__slug=category_slug,slug=product_slug)
 		
 	except Exception as e: 
