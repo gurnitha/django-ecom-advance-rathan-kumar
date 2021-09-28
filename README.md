@@ -560,6 +560,21 @@ https://www.udemy.com/course/django-ecommerce-project-based-course-python-django
         modified:   templates/store/inc/aside.html
 
 
+### ---------------------
+### 8. CART FUNCTIONALITY
+### ---------------------
+
+
+#### 8.1 Creating requirements.txt file
+
+        NOTE:
+        1. create requirements.txt file in root dir
+        2. write to it
+        (venv3932) λ pip freeze r > requirements.txt
+
+        modified:   README.md
+        new file:   requirements.txt
+
 
 
 
